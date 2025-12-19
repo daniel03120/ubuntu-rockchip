@@ -15,3 +15,8 @@ u-boot-rockchip_platforms += radxa-zero3-rk3566
 radxa-zero3-rk3566_ddr := rk3566_ddr_1056MHz_v1.18.bin
 radxa-zero3-rk3566_bl31 := rk3568_bl31_v1.43.elf
 radxa-zero3-rk3566_pkg := radxa-zero3
+
+u-boot-rockchip_platforms += lt-d3568-rk3568
+lt-d3568-rk3568_ddr := rk3568_ddr_1560MHz_v1.23.bin
+lt-d3568-rk3568_bl31 := rk3568_bl31_v1.43.elf
+lt-d3568-rk3568_pkg := lt-d3568
