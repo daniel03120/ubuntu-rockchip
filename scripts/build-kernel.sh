@@ -21,7 +21,7 @@ source "../config/suites/${SUITE}.sh"
 
 # Clone the kernel repo
 if ! git -C linux-rockchip pull; then
-    git clone --progress -b "${KERNEL_BRANCH}" "${KERNEL_REPO}" linux-5.10.y-rk35xx --depth=2
+    git clone --progress -b "${KERNEL_BRANCH}" "${KERNEL_REPO}" linux-rockchip --depth=2
 fi
 
 cd linux-rockchip
