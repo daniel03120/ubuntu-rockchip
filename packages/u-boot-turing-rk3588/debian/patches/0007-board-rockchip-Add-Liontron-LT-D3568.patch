@@ -9,7 +9,6 @@ index 00000000000..5557d983f31
 --- /dev/null
 +++ b/configs/lt-d3568-rk3568_defconfig
 @@ -0,0 +1,662 @@
-
  +CONFIG_LOCALVERSION="-rk3568"
  +CONFIG_DEFAULT_HOSTNAME="localhost"
  +CONFIG_SYSVIPC=y
@@ -672,7 +671,6 @@ index 00000000000..5557d983f31
  +CONFIG_FUNCTION_TRACER=y
  +CONFIG_BLK_DEV_IO_TRACE=y
  +CONFIG_LKDTM=y
-
---
+ --
 2.25.1
 
