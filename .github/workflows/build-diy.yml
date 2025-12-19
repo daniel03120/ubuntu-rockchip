@@ -6,9 +6,10 @@ on:
       board:
         description: 'Board to build'
         required: true
-        default: 'cyber3588-aib'
+        default: 'lt-d3568'
         type: choice
         options:
+          - lt-d3568
           - aio-3588l
           - armsom-aim7
           - armsom-sige5
@@ -49,7 +50,7 @@ on:
       suite:
         description: 'Ubuntu version'
         required: true
-        default: 'noble'
+        default: 'jammy'
         type: choice
         options:
           - jammy
