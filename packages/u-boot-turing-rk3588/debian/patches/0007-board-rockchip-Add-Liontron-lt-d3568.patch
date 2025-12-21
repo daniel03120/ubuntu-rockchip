@@ -1,21 +1,7 @@
- arch/arm/dts/Makefile                       |   1 +
- configs/orangepi-3b-rk3566_defconfig        | 114 ++
+configs/orangepi-3b-rk3566_defconfig        | 114 ++
 1 files changed, 662 insertions(+)
 create mode 100644 configs/lt-d3568-rk3568_defconfig
 
-diff --git a/arch/arm/dts/Makefile b/arch/arm/dts/Makefile
-index 94254b53aaf..94d28746b2f 100644
---- a/arch/arm/dts/Makefile
-+++ b/arch/arm/dts/Makefile
-@@ -174,7 +174,8 @@ dtb-$(CONFIG_ROCKCHIP_RK3399) += \
- dtb-$(CONFIG_ROCKCHIP_RK3568) += \
-    rk3566-anbernic-rgxx3.dtb \
- 	rk3566-orangepi-3b.dtb \
- 	rk3566-radxa-zero3.dtb \
-+   rk3568-lt-d3568.dtb \
- 	rk3566-quartz64-a.dtb \
- 	rk3566-quartz64-b.dtb \
- 	rk3566-radxa-cm3-io.dtb \
 diff --git a/configs/lt-d3568-rk3568_defconfig b/configs/lt-d3568-rk3568_defconfig
 new file mode 100644
 index 00000000000..5557d983f31
