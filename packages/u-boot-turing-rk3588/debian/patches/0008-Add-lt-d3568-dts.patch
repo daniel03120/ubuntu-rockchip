@@ -3,7 +3,7 @@ new file mode 100644
 index 00000000000..319236efc25
 --- /dev/null
 +++ b/arch/arm/dts/rk3568-lt-d3568.dts
-@@ -0,0 +1,4894 @@
+@@ -0,0 +1,4893 @@
 +// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
 +/*
 + * Copyright (c) 2020 Rockchip Electronics Co., Ltd.
