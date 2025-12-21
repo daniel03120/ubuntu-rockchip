@@ -7,7 +7,7 @@ diff --git a/arch/arm/dts/Makefile b/arch/arm/dts/Makefile
 index 94254b53aaf..94d28746b2f 100644
 --- a/arch/arm/dts/Makefile
 +++ b/arch/arm/dts/Makefile
-@@ -175,6 +175,7 @@ dtb-$(CONFIG_ROCKCHIP_RK3399) += \
+@@ -174,7 +174,8 @@ dtb-$(CONFIG_ROCKCHIP_RK3399) += \
  dtb-$(CONFIG_ROCKCHIP_RK3568) += \
     rk3566-anbernic-rgxx3.dtb \
  	rk3566-orangepi-3b.dtb \
