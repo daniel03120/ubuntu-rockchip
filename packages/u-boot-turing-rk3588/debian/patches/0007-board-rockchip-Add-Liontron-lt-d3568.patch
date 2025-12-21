@@ -1,4 +1,4 @@
-configs/orangepi-3b-rk3566_defconfig        | 114 ++
+configs/lt-d3568-rk3568_defconfig        | 114 ++
 1 files changed, 662 insertions(+)
 create mode 100644 configs/lt-d3568-rk3568_defconfig
 
