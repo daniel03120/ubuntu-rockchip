@@ -18,7 +18,7 @@ on:
       suite:
         description: 'Ubuntu version'
         required: true
-        default: 'jammy'
+        default: 'noble'
         type: choice
         options:
           - jammy
@@ -26,7 +26,7 @@ on:
       flavor:
         description: 'Flavor (desktop or server)'
         required: true
-        default: 'desktop'
+        default: 'server'
         type: choice
         options:
           - desktop
