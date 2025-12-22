@@ -155,7 +155,7 @@ jobs:
 
       - name: Checkout code
         uses: actions/checkout@v4
-        with:     # 核心：不指定 ref/commit，默认拉取触发本次运行的分支/提交
+        with:     
           ref: ${{ github.ref }} 
           fetch-depth: 0  # 拉取完整提交历史（避免浅克隆导致的代码不全）          
 
