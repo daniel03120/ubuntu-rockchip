@@ -3,7 +3,7 @@ new file mode 100644
 index 00000000000..319236efc25
 --- /dev/null
 +++ b/arch/arm/dts/rk3568-lt-d3568.dts
-@@ -0,0 +1,4893 @@
+@@ -0,0 +1,4982 @@
 +// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
 +/*
 + * Copyright (c) 2020 Rockchip Electronics Co., Ltd.
@@ -16,7 +16,6 @@ index 00000000000..319236efc25
 +#include <dt-bindings/clock/rk3568-cru.h>
 +#include <dt-bindings/interrupt-controller/arm-gic.h>
 +#include <dt-bindings/interrupt-controller/irq.h>
-+#include <dt-bindings/input/rk-input.h>
 +#include <dt-bindings/pinctrl/rockchip.h>
 +#include <dt-bindings/soc/rockchip,boot-mode.h>
 +#include <dt-bindings/phy/phy.h>
