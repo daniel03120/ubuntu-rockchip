@@ -3,7 +3,7 @@ new file mode 100644
 index 00000000000..319236efc25
 --- /dev/null
 +++ b/arch/arm/dts/rk3568-lt-d3568.dts
-@@ -0,0 +1,4971 @@
+@@ -0,0 +1,4969 @@
 +// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
 +/*
 + * Copyright (c) 2020 Rockchip Electronics Co., Ltd.
@@ -4973,7 +4973,5 @@ index 00000000000..319236efc25
 +
 +	};
 +};
-+
-+#include "rk3568-pinctrl-oem.dtsi"
 --
 2.25.1
